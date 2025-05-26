@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta html </title>
+               
+    <! roubando no Style embutido kkkkkk-->
+    <style>
+        
+        body {
+          background-color: rgb(190, 241, 177);
+          color: rgb(8, 8, 8);
+          font-family: sans-serif;
+        }
+    
+        input, label {
+          display: block;
+          margin: 10px 0;
+        }
+      </style>
+      <! roubando no Style embutido kkkkkk-->
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Crie uma Nova Conta</h1>
+            <fieldset>
+                <legend>Primeiro Passo</legend>
+
+                <h3>Conta</h3>
+                <div style="margin: 25px;" >
+                    <label for="nome">• Nome:</label>
+                <input type="text" id="nome" name="nome"> <br>
+
+                <label for="sobrenome">• Sobrenome :</label>
+                <input type="text" id="sobrenome" name="sobrenome"> <br>
+
+                <label for="email">• Email :</label>
+                <input type="email" placeholder="godoy@gmail.com" id="email" name="email"> <br>
+
+                <label for="senha">• Senha: </label>
+                <input type="password" id="senha" name="senha"> <br>
+
+                <label for="repitasenha">• Repita a Senha: </label>
+                <input type="password" id="repitasenha" name="repitasenha"> <br>
+                </div>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Segundo Passo</legend>
+                <h3>Endereço</h3>
+                <div style="margin: 25px;">
+                    <label for="logradouro">• Logradouro: </label>
+                    <input type="text"> <br>
+    
+                    <label for="complemento">• Complemento: </label>            
+                    <input type="text" id="complemento" name="complemento"> <br>
+    
+                    <label for="cidade">• Cidade:</label>
+                    <input type="text" id="cidade" name="cidade"> <br>
+                    
+                    <label for="estado">• Estado: </label>
+                   <select name="estado" id="estado">
+                    <option value="">   </option>
+                    <option value="pernambuco"> Pernambuco</option>
+                    <option value="maceio">Maceió</option>
+                    <option value="sao paulo"> São Paulo</option>
+                    <option value="rio de janeiro">Rio de Janeiro</option>
+                   </select> <br>
+    
+                   <label for="cep">• CEP: </label>
+                   <input type="text" id="cep" name="cep"> <br>
+                </div>
+
+
+               
+            </fieldset> 
+            
+            <br>
+
+            <fieldset>
+                <legend>Terceiro Passo</legend>
+                <h3>Perfil</h3>
+                <div>
+                    <label for="foto">• Foto</label>
+                    <input type="file" id="foto" name="foto"> <br> <br>
+                        Tamanho máximo de 700k,JPG,GIF,PNG. <br><br>
+
+                        <label for="nome">• Nome: </label>
+                        <input type="text" id="nome" name="nome"> <br>
+                        <label for="site">• Site</label>
+                        <input type="url" id="site" name="site"><br><br>
+
+                        Tem um site ou um blog? Coloque o endereço aqui. <br><br>
+
+                        <label for="biografia">• Biografia</label> <br>
+                        <textarea name="biografia" id="biografia"></textarea><br><br>
+
+                        <label for="genero">• Gênero: </label>
+
+                        <br>
+                   </div>
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend>Quarto Passo</legend>
+                <h2>E-mails</h2>
+
+                <div>
+                    <label for="primeirocheckbox">• </label>
+                    <input  type="checkbox" id="primeirocheckbox" name="primeirocheckbox"> 
+                    Tudo bem em enviar e-mails com mensagens de outros usuários.<br><br>
+
+                    <label for="segundocheckbox">• </label>
+                    <input type="checkbox" id="segundocheckbox" name="segundocheckbox">
+                    Tudo bem em enviar e-mails ocadionais com promoções sobre outros produtos.
+                </div>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Finalizar</legend>
+                <input type="submit" value="Criar conta">
+            </fieldset>
+
+    </main>
+    <footer>
+        <br><br><br>
+        Treinando Formularios em um exercicio Real <br>
+        Feito por Marcio Luiz Godoy
+    </footer>
+</body>
+</html>
